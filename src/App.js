@@ -80,9 +80,9 @@ function App() {
       <br />
       <button onClick={handleGithubSignIn}>Sign in using Github</button>
       <br />
-      <h2>FB name: {user.displayName}</h2>
+      <h2>User FB name: {user.displayName}</h2>
 
-      <h3>Email: {user.email}</h3>
+      <h3>User Email: {user.email}</h3>
 
       <img src={user.photoURL} alt="" />
     </div>
