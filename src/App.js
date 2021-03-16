@@ -80,7 +80,7 @@ function App() {
       <br />
       <button onClick={handleGithubSignIn}>Sign in using Github</button>
       <br />
-      <h2>FB name: {user.displayName}</h2>
+      <h2>user FB name: {user.displayName}</h2>
 
       <h3>Email: {user.email}</h3>
 
